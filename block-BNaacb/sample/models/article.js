@@ -1,10 +1,10 @@
 let mongoose = require('mongoose')
 
-let Schema = mongoose.Schema()
+let Schema = mongoose.Schema;
 
-    let userSchema =  new Schema({
-        name : String,
-        age : Number,
-        isAdmin : Boolean,
-    })
+let userSchema = new Schema({
+    title: String,
+    auther: String,
+    isAdmin: Boolean,
+})
 
