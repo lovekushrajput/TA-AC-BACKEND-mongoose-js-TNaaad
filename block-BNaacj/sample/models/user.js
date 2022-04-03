@@ -8,5 +8,5 @@ let userSchema = new Schema({
     favorites : [String],
     marks : [Number],
     password : {type : String , minlength : 5, maxlength : 15},
-    createdAt : { type : Number , default: new Date() }
+    createdAt : { type : Date , default: new Date() }
 })
